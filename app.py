@@ -31,8 +31,10 @@ def main() :
         
 
         df = pd.read_csv(file)
-        df = df.dropna(axis=0)
+        
         st.dataframe(df)
+
+        df = df.dropna()
 
         column_list = df.columns
         
