@@ -13,7 +13,7 @@ jobs:
       - name: ssh to ec2
         uses: appleboy/ssh-action@master
         with:
-          key: ${{ secrets.SHH_PRIVATE_KEY }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           script: |
