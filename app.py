@@ -15,6 +15,7 @@ from sklearn.compose import ColumnTransformer
 
 def main() :
     st.title ('K-Means클러스터링')
+    st.title ('안녕하세요')
 
     #1. csv파일을 업로드 할수 있다.
 
